@@ -1,9 +1,18 @@
-@media (prefers-color-scheme: dark) {
-    .gitlabLogo {
-        filter: invert(1);
-    }
+.mailIcon {
+    height: 32px;
+    margin-left: 6px;
+}
 
-    .logo {
-        filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+.githubIcon {
+    height: 32px;
+}
+
+.linkedinIcon {
+    height: 32px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .darkInvert {
+        filter: invert(1);
     }
 }

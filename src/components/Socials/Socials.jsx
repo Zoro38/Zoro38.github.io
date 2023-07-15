@@ -9,8 +9,7 @@ export default function Socials() {
                 <img
                     src="/linkedin.png"
                     alt="LinkedIn"
-                    width="36"
-                    height="32"
+                    className={styles.linkedinIcon}
                 />
             </a>
             <a href="https://github.com/Zoro38"
@@ -19,9 +18,14 @@ export default function Socials() {
                 <img
                     src="/github.svg"
                     alt="LinkedIn"
-                    className={styles.gitlabLogo}
-                    width="32"
-                    height="32"
+                    className={`${styles.githubIcon} ${styles.darkInvert}`}
+                />
+            </a>
+            <a href="mailto:y.yildiz@outlook.de">
+                <img
+                    src="/mail.svg"
+                    alt="E-Mail"
+                    className={`${styles.mailIcon} ${styles.darkInvert}`}
                 />
             </a>
         </div>
